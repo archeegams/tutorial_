@@ -1,5 +1,7 @@
-<?php 
-require('client_information.php');
+<?php
+
+	require('client_information.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -7,30 +9,32 @@ require('client_information.php');
 <head>
 	<title>UserInfo Demo</title>
 	<style>
-table {
-	margin-top: 20px;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
+		table {
+			margin-top: 20px;
+		    font-family: arial, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		}
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-}
+		td, th {
+		    border: 1px solid #dddddd;
+		    text-align: center;
+		    padding: 8px;
+		}
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-h2{font-family: sans-serif,'Helvetica';}
-</style>
+		tr:nth-child(even) {
+		    background-color: #dddddd;
+		}
+		
+		h2{
+			font-family: sans-serif,'Helvetica';
+		}
+	</style>
 
 </head>
 <body>
-<center><h2>UserInfo demo</h2></center>
 
-
+	<center><h2>UserInfo demo</h2></center>
 	<table>
 		<tr>
 			<th>Ip</th>
