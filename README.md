@@ -1,4 +1,4 @@
-[![GitHub version](https://badge.fury.io/gh/marufhasan1%2Fuser_info.svg)](https://badge.fury.io/gh/marufhasan1%2Fuser_info)
+[![GitHub version](https://badge.fury.io/gh/marufhasan1%2Fclient_information.svg)](https://badge.fury.io/gh/marufhasan1%2Fclient_information)
 # User's Information
 Getting The Client Information (Client's IP Address,Operating System,Browser Name,Device Type) in PHP 
 
@@ -21,7 +21,7 @@ If you want to get the client IP Address, Use this Method, This Method will retu
 
 **Example**
 ```php
-require('user_info.php');
+require('client_information.php');
 echo client_information::get_ip()
 ```
 
@@ -31,7 +31,7 @@ If you want to get the client Operating System Name, Use this Method, This Metho
 
 **Example**
 ```php
-require('user_info.php');
+require('client_information.php');
 echo client_information::get_os();
 ```
 
@@ -41,7 +41,7 @@ If you want to get the client's Browser Name, Use this Method, This Method will 
 
 **Example**
 ```php
-require('user_info.php');
+require('client_information.php');
 echo client_information::get_browser();
 ```
 
@@ -51,6 +51,6 @@ Mobile,Tablet,Computer
 
 **Example**
 ```php
-require('user_info.php');
+require('client_information.php');
 echo client_information::get_device();
 ```
