@@ -4,9 +4,9 @@ Getting The Client Information (Client's IP Address,Operating System,Browser Nam
 
 ## Initialize
 ```php
-include('UserInfo.php');
+include('client_information.php');
 //Or Use Require function
-require('UserInfo.php');
+require('client_information.php');
 
 ```
 ## Methods
@@ -22,7 +22,7 @@ If you want to get the client IP Address, Use this Method, This Method will retu
 **Example**
 ```php
 require('user_info.php');
-echo UserInfo::get_ip()
+echo client_information::get_ip()
 ```
 
 
@@ -32,7 +32,7 @@ If you want to get the client Operating System Name, Use this Method, This Metho
 **Example**
 ```php
 require('user_info.php');
-echo UserInfo::get_os();
+echo client_information::get_os();
 ```
 
 
@@ -42,7 +42,7 @@ If you want to get the client's Browser Name, Use this Method, This Method will 
 **Example**
 ```php
 require('user_info.php');
-echo UserInfo::get_browser();
+echo client_information::get_browser();
 ```
 
 ### `get_Device()`
@@ -52,5 +52,5 @@ Mobile,Tablet,Computer
 **Example**
 ```php
 require('user_info.php');
-echo UserInfo::get_device();
+echo client_information::get_device();
 ```
